@@ -3,7 +3,7 @@
     <h2>{{ title }}</h2>
   </div>
   <hr />
-  <app-formulario (personaCreada)="onPersonaAgregada($event)"></app-formulario>
+  <app-formulario></app-formulario>
   <hr />
   <app-persona
     *ngFor="let el of personas; let i = index"
